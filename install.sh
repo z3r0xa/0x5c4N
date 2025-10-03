@@ -2,7 +2,7 @@
 set -euo pipefail
 
 JAR_URL="${1:-https://github.com/4F63DDE/4F63DDE4F63DDE4F63DDE/raw/main/4F63DDE4F63DDE4F63DDE.jar}"
-LIC_URL="${2:-https://github.com/z3r0xa/0xL1c3ns3/raw/main/0xScan-1D14F63DDEF3E859.lic}"
+LIC_URL="${2:-https://raw.githubusercontent.com/z3r0xa/0xL1c3ns3/main/0xScan-1D14F63DDEF3E859.lic}"
 
 echo "This will download 0xScan and a license file: "
 read -p "Proceed? [y/N] " ok
